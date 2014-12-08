@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:id="@+id/Edit_MinDistance_GPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="1000"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:inputType="number"
+        android:key="MinDistance_GPS"
+        android:numeric="integer"
+        android:title="Min Distance GPS" />
+    <EditTextPreference
+        android:id="@+id/Edit_MinDistance_Network"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="1000"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:inputType="number"
+        android:key="MinDistance_Network"
+        android:numeric="integer"
+        android:title="Min Distance Network" />
+    <EditTextPreference
+        android:id="@+id/Edit_MinTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="240000"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:inputType="number"
+        android:key="MinTime"
+        android:numeric="integer"
+        android:title="Min Time" />
+    <EditTextPreference
+        android:id="@+id/Edit_Radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="2"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:inputType="number"
+        android:key="Radius"
+        android:numeric="integer"
+        android:title="Radius (km)" />
+
+</PreferenceScreen>

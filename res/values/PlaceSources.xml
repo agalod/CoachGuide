@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sources_array">
+        <item>PlaceSpeaker</item>
+        <item>AlsoToday</item>
+        <item>AlsoToday Places</item>        
+        <item>FOP Places</item>
+    </string-array>
+</resources>
